@@ -1,0 +1,112 @@
+@import url(../../assets/styles/main.css);
+@import url("../../components/headerComponent/header.css");
+@import url("../../components/buyModalComponent/buyModal.css");
+
+.modal-content{
+    background-color: rgb(255, 255, 255)
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0rem 1.2rem;
+}
+
+.modal-footer button:first-child {
+    margin-right: auto;
+}
+
+.modal-footer button:last-child {
+    margin-left: auto;
+    min-width: 8rem;
+}
+
+section {
+    text-align: center;
+}
+
+#searchResult {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+#searchResultTitle {
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+    align-self: center;
+    color: rgb(12, 54, 28);
+    text-shadow: 2px 4px 6px rgba(143, 192, 57, 0.687);
+    animation: bounce 2s ease 2;
+}
+/*
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}*/
+
+.movieCard {
+    width: 15%;
+    min-width: 12rem;
+    max-width: 17rem;
+    margin-bottom: 2rem;
+    margin-left: 0.1rem;
+    box-shadow: 0rem 0.2rem 0.5rem 0.2rem 
+        rgba(0,0,0,0.2);
+}
+
+.movieCard .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0rem;
+    padding-top: 0rem;
+    text-align: center;
+}
+
+.movieCard a,
+.movieCard a img {
+    height: 100%;
+    box-shadow: 0rem 0.2rem 0.4rem 0.2rem 
+        var(--green-dark-shadow);
+}
+
+.movieCard .card-title {
+    min-height: 3rem;
+    align-self: center;
+    margin: 0.5rem 0rem 1rem 0rem;
+}
+
+.movieCard .card-text {
+    cursor: auto!important;
+    background-color: #ffc1076c;
+    box-shadow: none !important;
+    padding: 0.1rem 0.4rem;
+    margin: -0.2rem 0rem 0.5rem -0.2rem ;
+    font-size: 0.7rem;
+    /*
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    margin: 5px;
+    */
+}
+
+.movieCard .btn {
+    box-shadow: 0rem 0rem 0.2rem 0.2rem 
+        var(--green-light-shadow);
+    font-weight: bold;
+    padding: 0;
+}

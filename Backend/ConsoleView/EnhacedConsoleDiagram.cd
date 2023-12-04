@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Imprime con colores">
+    <Position X="5.012" Y="1.443" Height="0.331" Width="1.523" />
+  </Comment>
+  <Comment CommentText="Lee tipos de datos">
+    <Position X="7.513" Y="1.433" Height="0.331" Width="1.523" />
+  </Comment>
+  <Comment CommentText="Lee + Imprime + Metodos alto nivel">
+    <Position X="6.265" Y="7.003" Height="0.555" Width="1.523" />
+  </Comment>
+  <Class Name="ConsoleView.Printer" Collapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAAAAACAAAAAAAAAAAAAAAAAIAAIAAACAAEAAA=</HashCode>
+      <FileName>Printer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConsoleView.Reader" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAQAAAAgABAABAAAAIAgACAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConsoleView.EnhacedConsole" Collapsed="true">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIkIAAAAAAACABAAAAAAAIAAACAAAIAAIAAACIAEAAA=</HashCode>
+      <FileName>EnhacedConsole.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ConsoleView.IPrinter" Collapsed="true">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAAAAACAAAAAAAAAAAAAAAAAIAAIAAACAAEAAA=</HashCode>
+      <FileName>IPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ConsoleView.IReader" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAABAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ConsoleView.IEnhacedConsole" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>IEnhacedConsole.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>

@@ -1,0 +1,19 @@
+
+#buyModal {
+    width: 100%;
+}
+
+#buyModalImg {
+    width: 100%;    
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 70vw;
+}
+
+#buyError {
+    color: red;
+}
+
+#buyButton {
+    margin: auto;
+}

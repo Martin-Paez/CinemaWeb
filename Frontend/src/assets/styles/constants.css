@@ -1,0 +1,10 @@
+:root {
+    --green: rgba(27, 144, 89, 0.9);
+    --green-scrollbar : rgba(27, 117, 75, 0.758);
+    --green-light: rgba(27, 144, 89, 0.288);
+    --green-track: rgba(15, 91, 56, 0.227);
+    --green-dark-shadow: rgba(4, 40, 23, 0.8);
+    --green-light-shadow: rgba(6, 57, 34, 0.7);
+    --red: rgb(179, 62, 60);
+}
+  

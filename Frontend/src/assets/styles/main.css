@@ -1,0 +1,30 @@
+
+body {
+    background-color: rgb(239, 236, 236);
+    display: flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    width: 0.9rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--green-scrollbar), var(--green-light));
+    border-radius: 0 0 10px 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--green-track);
+}
+
+* {
+    scrollbar-color: var(--green-scrollbar) var(--green-track);
+    scrollbar-width: thin;
+}
+
+*::-ms-scrollbar {
+    color: var(--green-scrollbar);
+    width: 12px;
+}
+

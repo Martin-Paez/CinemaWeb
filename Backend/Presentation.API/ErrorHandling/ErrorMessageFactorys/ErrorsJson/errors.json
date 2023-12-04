@@ -1,0 +1,70 @@
+{
+  "common": {
+    "no-filter-results": {
+      "code": 1001,
+      "message": "No hay resultados para el filtro aplicado."
+    },
+    "empty": {
+      "code": 1002,
+      "message": "{0} no debe estar vacio."
+    },
+    "invalid-length": {
+      "code": 1003,
+      "message": "{0} debe tener entre 1 y {1}. caracteres."
+    },
+    "invalid-id-format": {
+      "code": 1004,
+      "message": "El id de {0} debe ser mayor a 0."
+    },
+    "not-found-by": {
+      "code": 1005,
+      "message": "No hay un registro para {0}."
+    },
+    "invalid-time-format": {
+      "code": 1006,
+      "message": "El formato del horario es invalido. Se acepta hh:mm"
+    },
+    "invalid-date-format": {
+      "code": 1007,
+      "message": "El formato de la fecha es invalido."
+    }
+  },
+  "tickets": {
+    "invalid-tickets-amount": {
+      "code": 2001,
+      "message": "La cantidad de tickets a comprar debe ser mayor a 0."
+    },
+    "insuficient-seats": {
+      "code": 2002,
+      "message": "Asientos insuficientes. Solo quedan {0} asientos libres."
+    }
+  },
+  "shows": {
+    "overlapping-shows": {
+      "code": 3001,
+      "message": "La funcion se superpone en horarios."
+    },
+    "elapsed-date": {
+      "code": 3002,
+      "message": "Se esperaba la fecha de hoy o posterior."
+    },
+    "elapsed-time": {
+      "code": 3003,
+      "message": "Se esperaba un horario posterior."
+    },
+    "unavailable-title": {
+      "code": 3004,
+      "message": "El titulo ya esta registrado para otra pelicula."
+    }
+  },
+  "entity-name": {
+    "id-of": "id de ",
+    "Show": "Funcion",
+    "Movie": "Pelicula",
+    "Screen": "Sala",
+    "Ticket": "Ticket",
+    "Genre": "Genero",
+    "ShowScheduleResponse": "Funcion",
+    "MovieOptionalParamsRequest": "Pelicula"
+  }
+}

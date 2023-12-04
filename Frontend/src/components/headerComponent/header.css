@@ -1,0 +1,122 @@
+@import url("../../assets/styles/constants.css");
+
+#mainHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+   /* background: linear-gradient(180deg,
+        rgb(221, 204, 79) 0%,
+        #b2a63f 15%, 
+        rgb(224, 205, 102) 75.23%, 
+        rgba(227, 223, 125, 0.9) 100%);*/
+    background: linear-gradient(180deg,
+        rgba(25, 135, 84,1) 0%,
+        rgba(20, 107, 66,1) 15%, 
+        rgba(26, 142, 88,1) 75.23%, 
+        var(--green) 100%);
+    box-shadow: 0px 0px 7px 3px 
+        rgba(0,0,0,0.5);
+    min-width: 14rem !important;
+    border-color: #198754;
+}
+
+#searchBar {
+    width: 100%;
+    max-width: 72rem;
+    margin: 1.5rem 0px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 5px 3px 
+        rgba(0,0,0,0.3);
+}
+
+#searchMovie {
+    width: 50%;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    #searchBar,
+    #searchMovie,
+    #genreSelector  {
+        border-radius: 0px;
+    }
+    
+    #searchMovie {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.headerForm > input,
+.headerForm {
+    height: 3rem;
+    border: 0px solid white;
+}
+
+#searchMovie > span {
+    background-color: #19875400;
+    border: 0px solid white;
+}
+
+.headerForm > input,
+.headerForm {
+    background: linear-gradient(180deg,
+        rgba(195, 194, 194, 0.7) 0%,
+        rgba(255, 255, 255, 0.7) 5%,
+        rgba(236, 235, 235, 0.7) 20%,
+        rgba(235, 234, 234, 0.7) 60%,  
+        rgba(255, 255, 255, 0.7) 90%, 
+        rgba(202, 200, 200, 0.7) 100%);
+}
+
+#genreSelector,
+#dateSelector,
+#searchButton {
+    min-width: 11rem !important;
+}
+
+#genreSelector {
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+
+#searchButton {
+    border-radius: 1rem;
+    margin-left: 1rem;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+@media (max-width: 1113px) 
+{
+    #searchBar button.headerForm {
+        display: block;
+        border-radius: 1rem;
+        margin: auto;
+    }
+
+    #searchBar .input-group,
+    #searchBar input,
+    #searchBar span,
+    #searchBar select,
+    #searchBar button.headerForm {
+        margin-bottom: 1rem;
+    }
+
+    #searchBar {
+        padding-bottom: 0rem;
+    }   
+}
+
+@media (max-width: 559px) 
+{
+    #genreSelector {
+        border-radius: 0rem;
+    }
+}

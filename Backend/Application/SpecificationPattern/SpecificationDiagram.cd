@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Las condiciones en consultas de filtrado por campos se modelan con Specifications. Se pueden combinar dos en una nueva, invocando sus metodos de operaciones logicas. Por ej.: GetBy( date.And( movie ) )">
+    <Position X="2.61" Y="4.526" Height="0.695" Width="4.778" />
+  </Comment>
+  <Comment CommentText="Las Specifications estan preparadas para usarse en las consultas sql.&#xD;&#xA;Se aprobecha el poder de procesamiento de las consultas de la BD y se optimizan los recursos de red.">
+    <Position X="2.47" Y="0.637" Height="0.825" Width="5.011" />
+  </Comment>
+  <Class Name="Application.SpecificationPattern.CompositeSpecification&lt;T&gt;" Collapsed="true">
+    <Position X="3.75" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationPattern\CompositeSpecification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Application.SpecificationPattern.AndSpecification&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationPattern\AndSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Application.SpecificationPattern.ISpecification&lt;T&gt;" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationPattern\ISpecification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>

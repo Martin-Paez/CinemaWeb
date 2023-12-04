@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Basic Printers (Read data)">
+    <Position X="2.75" Y="2" Height="0.319" Width="1.905" />
+  </Comment>
+  <Comment CommentText="Inserter (Write data)">
+    <Position X="10" Y="2" Height="0.31" Width="1.44" />
+  </Comment>
+  <Comment CommentText="Los menues son Commands">
+    <Position X="6.25" Y="2" Height="0.31" Width="2.249" />
+  </Comment>
+  <Comment CommentText="Filtering Printers ( Read data )">
+    <Position X="6.25" Y="5.25" Height="0.338" Width="2.239" />
+  </Comment>
+  <Class Name="Vista.Command_Pattern.MoviesPrinter" Collapsed="true">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIBACAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuCommandPattern\BasicPrinters\ConcreteBasicPrinters\MoviesPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vista.Command_Pattern.ShowsByMovieAndDayPrinter" Collapsed="true">
+    <Position X="2.25" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAgCAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuCommandPattern\FilteringPrinters\ShowFilteringPrinters\ShowByMovieAndDayPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vista.Command_Pattern.ShowsByMovieOrDayPrinter" Collapsed="true">
+    <Position X="5" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAgCAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuCommandPattern\FilteringPrinters\ShowFilteringPrinters\ShowByMovieOrDayPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vista.Command_Pattern.ShowsByDayPrinter" Collapsed="true">
+    <Position X="7.75" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuCommandPattern\FilteringPrinters\ShowFilteringPrinters\ShowsByDayPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsolePresenter.MenuCommandPattern.FilteringPrinters.ShowFilteringPrinters.ShowsByMoviePrinter" Collapsed="true">
+    <Position X="10" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAABACAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuCommandPattern\FilteringPrinters\ShowFilteringPrinters\ShowsByMoviePrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsolePresenter.MenuCommandPattern.FilteringPrinters.FilteringPrinter&lt;Target&gt;" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQgAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuCommandPattern\FilteringPrinters\FilteringPrinter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConsolePresenter.MenuCommandPattern.BasicPrinters.ResponsePrinter&lt;Target&gt;" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAIBASAAAAAIBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuCommandPattern\BasicPrinters\ResponsePrinter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConsolePresenter.MenuCommandPattern.BasicPrinters.ConcreteBasicPrinters.RoomsPrinter" Collapsed="true">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIBACAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuCommandPattern\BasicPrinters\ConcreteBasicPrinters\RoomsPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsolePresenter.MenuCommandPattern.MenuInvoker" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAIAAAAQAAEAAABAAAAAAAEAAAAAAQBAAAII=</HashCode>
+      <FileName>MenuCommandPattern\MenuInvoker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConsolePresenter.MenuCommandPattern.Inserters.ShowsInserter" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAQAAAAAABBAAAAAAgAAAAAAAAAABgA=</HashCode>
+      <FileName>MenuCommandPattern\Inserters\ShowsInserter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ConsolePresenter.MenuCommandPattern.ICommand" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuCommandPattern\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
