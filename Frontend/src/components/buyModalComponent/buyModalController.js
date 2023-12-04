@@ -30,8 +30,7 @@ async function render(shows, date, container)
                     confirmButtonColor: '#4CAF50',
                   }).then((result) => {
                     if (result.isConfirmed) {
-                      // Cambiar de ventana aquí
-                      window.location.href = "http://127.0.0.1:5500/pages/searchResult/searchResult.html";
+                        window.location.reload();
                     } 
                   });
                 

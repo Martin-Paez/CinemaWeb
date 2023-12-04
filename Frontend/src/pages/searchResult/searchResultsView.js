@@ -3,17 +3,28 @@ import CardController from "../../components/cardComponent/cardController.js";
 import BuyModalController from "../../components/buyModalComponent/buyModalController.js";
 import DateSelectorController from "../../components/dateSelector/dateSelectorController.js";
 
-function render(query, date, genre, movieCardDtos, shows) 
+function render(query, date, genre, movieCardDtos, shows, suggestions) 
 {
     let header = document.querySelector("#mainHeader");
     HeaderController.render(header, query===null||query==="null"?"":query, date, genre);
-    renderTitle(query, date, genre, movieCardDtos);
+    if(suggestions)
+        renderTitle(query, date, genre, [], suggestions);
+    else
+        renderTitle(query, date, genre, movieCardDtos);
     let container = document.querySelector(`body > section`);
     BuyModalController.render(shows, date, container);
-    updateSearchResult(movieCardDtos, shows, date);
+    
+    if(suggestions)
+     {
+        updateSearchResult([], shows, date);
+        document.getElementById("suggestions").style.display = "block";
+        updateSearchResult(movieCardDtos, shows, date);
+     }
+     else
+     updateSearchResult(movieCardDtos, shows, date);
 };
 
-function renderTitle(query, date, genre, movieCardDtos)
+function renderTitle(query, date, genre, movieCardDtos, suggestions)
 {
     let msgs = [];
     if(genre)
@@ -39,7 +50,7 @@ function renderTitle(query, date, genre, movieCardDtos)
     if(movieCardDtos.length == 0)
     {
         if(msgs.length > 0)
-            title = "No se hay r" + title;
+            title = "No hay r" + title;
         else
             title = "No hay " + title;
     }

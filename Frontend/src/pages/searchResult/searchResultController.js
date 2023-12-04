@@ -13,12 +13,19 @@ document.addEventListener('DOMContentLoaded', async () =>
         date,
         genre
     );
+    let suggestions = false;
+    if(shows === null || shows.length == 0)
+{     
+        shows = await ShowRepository.getFilteredShows();
+        suggestions = true;
+}
     SearchResultView.render(
         query,
         date,
         genreName,
         createDtos(shows),
-        shows
+        shows,
+        suggestions
     );
 });
 
